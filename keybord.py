@@ -20,5 +20,5 @@ def Print_A_Max(n: int) -> int:
             input_list[i] = max_val
     return input_list[-1]
 
-a = Print_A_Max(2)
-print(a)
+#a = Print_A_Max(2)
+#print(a)

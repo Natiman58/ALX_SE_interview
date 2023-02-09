@@ -23,5 +23,5 @@ def max_distane(field: List[int], tower: List[int]) -> int:
                 return max_dis
 
             
-l = max_distane([1, 5], [10])
-print(f'Max distance: {l}')
+#l = max_distane([1, 5], [10])
+#print(f'Max distance: {l}')
