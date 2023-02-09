@@ -12,8 +12,9 @@ def max_distane(field: List[int], tower: List[int]) -> int:
     """
         return the distance between a field and a water tower
     """
+    N = 10**9
     if len(field) > 0:
-        for i in range(10**9):
+        for i in range(N + 1):
             if field[i] == tower[i]:
                 if field[i] <= tower[i] <= field[i + 1]:
                     max_dis = field[i + 1] - field[i]
