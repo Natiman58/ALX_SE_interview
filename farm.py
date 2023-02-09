@@ -21,7 +21,5 @@ def max_distane(field: List[int], tower: List[int]) -> int:
             else:
                 max_dis = tower[i] - field[i]
                 return max_dis
-
-            
 # l = max_distane([1, 5], [10])
 # print(f'Max distance: {l}')

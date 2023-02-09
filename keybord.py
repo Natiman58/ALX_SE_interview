@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-   A special keybord to print chars
-   A,  
+   A special keybord to print char 'A'
 """
 # Key_1: (A) -> print 1 'A'
 # key_2: (Ctrl-A) -> select everything printed
 # key_3: (Ctrl-C) -> Copy everything to buffer
 # key_4: (Ctrl-V) -> print buffer contents
 # find the max num of A to print
+
 
 def Print_A_Max(n: int) -> int:
     """ max num of A to print
